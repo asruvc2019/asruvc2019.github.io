@@ -83,8 +83,10 @@
                             <thead>
                                 <tr>
                                     <th></th>
-                                    <th>Source</th>
-                                    <th>Target</th>
+                                    <th>Natural Source</th>
+                                    <th>Natural Target</th>
+                                    <th>Target (Wavenet Direct Vocode)</th>
+                                    <th>Target (GL Direct Vocode)</th>
                                     <th>Proposed + GL</th>
                                     <th>Proposed + Wavenet</th>
                                     <th>CycleGAN + GL</th>
@@ -103,6 +105,18 @@
                                     <td>
                                         <audio controls>
                                             <source src="57/1.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-wn/1.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-gl/1.wav" type="audio/wav" />
                                             Your browser does not support the audio element.
                                         </audio>
                                     </td>
@@ -147,6 +161,18 @@
                                     </td>
                                     <td>
                                         <audio controls>
+                                            <source src="57-wn/2.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-gl/2.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
                                             <source src="11-57-p-gl/2.wav" type="audio/wav" />
                                             Your browser does not support the audio element.
                                         </audio>
@@ -186,6 +212,18 @@
                                     </td>
                                     <td>
                                         <audio controls>
+                                            <source src="57-wn/3.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-gl/3.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
                                             <source src="11-57-p-gl/3.wav" type="audio/wav" />
                                             Your browser does not support the audio element.
                                         </audio>
@@ -212,14 +250,150 @@
                             </tbody>
                         </table>
                     </div>
+                    <div>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Natural Source</th>
+                                    <th>Natural Target</th>
+                                    <th>Target (Wavenet Direct Vocode)</th>
+                                    <th>Target (GL Direct Vocode)</th>
+                                    <th>Augmented + GL</th>
+                                    <th>Augmented + Wavenet</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Sample 1</th> 
+                                    <td>
+                                        <audio controls>
+                                            <source src="11-td/1.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57/1.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-wn/1.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-gl/1.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="11-57-td-gl/1.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="11-57-td-wn/1.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Sample 2</th> 
+                                    <td>
+                                        <audio controls>
+                                            <source src="11-td/2.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57/2.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-wn/2.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-gl/2.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="11-57-td-gl/2.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="11-57-td-wn/2.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Sample 3</th> 
+                                    <td>
+                                        <audio controls>
+                                            <source src="11-td/3.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57/3.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-wn/3.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-gl/3.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="11-57-td-gl/3.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="11-57-td-wn/3.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     <h3><small>Male (SM1) &rarr; Female (TF2)</small></h3>
                     <div>
                         <table class="table">
                             <thead>
                                 <tr>
                                     <th></th>
-                                    <th>Source</th>
-                                    <th>Target</th>
+                                    <th>Natural Source</th>
+                                    <th>Natural Target</th>
+                                    <th>Target (Wavenet Direct Vocode)</th>
+                                    <th>Target (GL Direct Vocode)</th>
                                     <th>Proposed + GL</th>
                                     <th>Proposed + Wavenet</th>
                                     <th>CycleGAN + GL</th>
@@ -238,6 +412,18 @@
                                     <td>
                                         <audio controls>
                                             <source src="57/1.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-wn/1.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-gl/1.wav" type="audio/wav" />
                                             Your browser does not support the audio element.
                                         </audio>
                                     </td>
@@ -282,6 +468,18 @@
                                     </td>
                                     <td>
                                         <audio controls>
+                                            <source src="57-wn/2.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-gl/2.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
                                             <source src="40-57-p-gl/2.wav" type="audio/wav" />
                                             Your browser does not support the audio element.
                                         </audio>
@@ -321,6 +519,18 @@
                                     </td>
                                     <td>
                                         <audio controls>
+                                            <source src="57-wn/3.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-gl/3.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
                                             <source src="40-57-p-gl/3.wav" type="audio/wav" />
                                             Your browser does not support the audio element.
                                         </audio>
@@ -340,6 +550,140 @@
                                     <td>
                                         <audio controls>
                                             <source src="40-57-b-wn/3.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Natural Source</th>
+                                    <th>Natural Target</th>
+                                    <th>Target (Wavenet Direct Vocode)</th>
+                                    <th>Target (GL Direct Vocode)</th>
+                                    <th>Augmented + GL</th>
+                                    <th>Augmented + Wavenet</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Sample 1</th> 
+                                    <td>
+                                        <audio controls>
+                                            <source src="40-td/1.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57/1.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-wn/1.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-gl/1.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="40-57-td-gl/1.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="40-57-td-wn/1.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Sample 2</th> 
+                                    <td>
+                                        <audio controls>
+                                            <source src="40-td/2.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57/2.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-wn/2.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-gl/2.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="40-57-td-gl/2.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="40-57-td-wn/2.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Sample 3</th> 
+                                    <td>
+                                        <audio controls>
+                                            <source src="40-td/3.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57/3.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-wn/3.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="57-gl/3.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="40-57-td-gl/3.wav" type="audio/wav" />
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </td>
+                                    <td>
+                                        <audio controls>
+                                            <source src="40-57-td-wn/3.wav" type="audio/wav" />
                                             Your browser does not support the audio element.
                                         </audio>
                                     </td>
